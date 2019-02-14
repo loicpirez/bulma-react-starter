@@ -15,10 +15,10 @@ const Navbar = () => {
 
   return (
     <BulmaNavbar
-      color='primary'
-      fixed='top'
+      // color='primary'
+      // fixed='top'
       active={open}
-      transparent={false}
+      transparent={true}
     >
       <BulmaNavbar.Brand>
         <BulmaNavbar.Item renderAs='a' href='#'>
