@@ -13,7 +13,14 @@
  *
  */
 
+const path = require('path')
+
 module.exports = (webpackConfig, env, { paths }) => {
-    // here you can extend your webpackConfig at will
-    return webpackConfig
+  let alias = webpackConfig.resolve.alias
+  alias = {
+    '_variables.sass': path.resolve(__dirname, 'src/theme/bulma-override.sass'),
+    ...alias
+  }
+  webpackConfig.resolve.alias = alias
+  return webpackConfig
 }

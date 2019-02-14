@@ -1,16 +1,21 @@
-import React, { Component } from 'react'
-import './styles/index.css'
+import 'react-bulma-components/full'
+import { GlobalStyle } from './styles'
+import { theme } from '../../theme'
+import { ThemeProvider } from 'styled-components'
+import Content from '../Content'
+import Navbar from '../Navbar'
+import React from 'react'
 
-// styled components
-
-class App extends Component {
-  render () {
-    return (
-      <div className='App'>
-        TEST
+const App = () => {
+  return (
+    <ThemeProvider theme={theme}>
+      <div className='app'>
+        <GlobalStyle />
+        <Navbar />
+        <Content />
       </div>
-    )
-  }
+    </ThemeProvider>
+  )
 }
 
 export default App
