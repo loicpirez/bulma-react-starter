@@ -1,0 +1,16 @@
+{
+	"main.content.date.description": "Nous sommes le {date}. Il est {time}.",
+	"main.content.date.title": "Date",
+	"main.content.path.description": "L'emplacement actuel est {path}.",
+	"main.content.path.title": "Chemin",
+	"main.hero.description": "Pour commencer, éditez <code>src/index.js</code> et sauvegardez pour recharger.",
+	"main.hero.title": "Bienvenue dans React-Bulma starter !",
+	"navbar.fifth": "Cinquième",
+	"navbar.fourth": "Quatrième",
+	"navbar.language.chinese": "Chinois",
+	"navbar.language.english": "Anglais",
+	"navbar.language.french": "Français",
+	"navbar.language.language": "Langue",
+	"navbar.second": "Second",
+	"navbar.third": "Troisième"
+}

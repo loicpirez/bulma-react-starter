@@ -1,7 +1,17 @@
+import { addLocaleData } from 'react-intl'
+import * as serviceWorker from './utils/service-worker'
+import App from './components/App'
+import localeEn from 'react-intl/locale-data/en'
+import localeFr from 'react-intl/locale-data/fr'
+import localeZh from 'react-intl/locale-data/zh'
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './components/App'
-import * as serviceWorker from './utils/service-worker'
+
+addLocaleData([
+  ...localeEn,
+  ...localeFr,
+  ...localeZh
+])
 
 ReactDOM.render(<App />, document.getElementById('root'))
 

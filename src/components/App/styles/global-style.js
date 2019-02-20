@@ -9,7 +9,11 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     min-height: ${props => props.theme.globalSize};
     flex-direction: column;
-    justify-content: space-between
+    justify-content: space-between;
+  }
+
+  code {
+    color: ${props => props.theme.globalCodeColor};
   }
 `
 export { GlobalStyle }

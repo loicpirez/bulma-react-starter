@@ -1,0 +1,16 @@
+{
+	"main.content.date.description": "The current date is {date}, {time}.",
+	"main.content.date.title": "Date",
+	"main.content.path.description": "The current path is {path}.",
+	"main.content.path.title": "Path",
+	"main.hero.description": "To get started, edit <code>src/index.js</code> and save to reload.",
+	"main.hero.title": "Welcome to React-Bulma starter !",
+	"navbar.fifth": "Fifth",
+	"navbar.fourth": "Fourth",
+	"navbar.language.chinese": "Chinese",
+	"navbar.language.english": "English",
+	"navbar.language.french": "French",
+	"navbar.language.language": "Language",
+	"navbar.second": "Second",
+	"navbar.third": "Third"
+}

@@ -1,0 +1,16 @@
+{
+	"main.content.date.description": "目前的日期是{date}，{time}。",
+	"main.content.date.title": "日期",
+	"main.content.path.description": "当前路径是{path}。",
+	"main.content.path.title": "路径",
+	"main.hero.description": "要开始，请编辑<code>src/index.js</code>并保存以重新加载。",
+	"main.hero.title": "欢迎来到React-Bulma starter！",
+	"navbar.fifth": "第五",
+	"navbar.fourth": "第四",
+	"navbar.language.chinese": "中文",
+	"navbar.language.english": "英语",
+	"navbar.language.french": "法国",
+	"navbar.language.language": "语言",
+	"navbar.second": "第二",
+	"navbar.third": "第三"
+}

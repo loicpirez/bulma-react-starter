@@ -1,3 +1,8 @@
+# React Bulma Starter
+> A starter with React, Bulma, Redux, React-Router and more.
+
+This 'starter' may not be suitable for everyone given all the tools already present and their implementations. Feel free to make suggestions or pull request!
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

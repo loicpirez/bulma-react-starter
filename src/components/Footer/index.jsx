@@ -3,6 +3,8 @@ import BulmaFooter from 'react-bulma-components/lib/components/footer'
 import Container from 'react-bulma-components/lib/components/container'
 import Content from 'react-bulma-components/lib/components/content'
 
+// TODO: Translate
+
 const Footer = () => {
   return (
     <BulmaFooter>

@@ -2,11 +2,12 @@ import React from 'react'
 import Hero from './Hero'
 import Content from './Content'
 
-const Main = () => {
+const Main = (props) => {
   return (
     <div className='main'>
       <Hero />
-      <Content />
+      {/* TODO: location dans le state redux */}
+      <Content {...props} />
     </div>
   )
 }
