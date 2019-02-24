@@ -2,7 +2,6 @@ import BulmaHero from 'react-bulma-components/lib/components/hero'
 import Container from 'react-bulma-components/lib/components/container'
 import Heading from 'react-bulma-components/lib/components/heading'
 import Navbar from '../Navbar'
-import PropTypes from 'prop-types'
 import React from 'react'
 import { FormattedMessage, FormattedHTMLMessage } from 'react-intl'
 

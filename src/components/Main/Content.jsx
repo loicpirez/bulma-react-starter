@@ -3,7 +3,7 @@ import Section from 'react-bulma-components/lib/components/section'
 import Container from 'react-bulma-components/lib/components/container'
 import Heading from 'react-bulma-components/lib/components/heading'
 import Columns from 'react-bulma-components/lib/components/columns'
-import { FormattedDate, FormattedTime, FormattedMessage, FormattedHTMLMessage } from 'react-intl'
+import { FormattedDate, FormattedTime, FormattedMessage } from 'react-intl'
 import PropTypes from 'prop-types'
 import ButtonColumn from './Button-Column'
 

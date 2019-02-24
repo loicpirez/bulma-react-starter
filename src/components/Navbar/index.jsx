@@ -22,11 +22,11 @@ const Navbar = () => {
     '/fifth': 'Fifth'
   }
 
-  const languages = {
-    'french': 'Français',
-    'english': 'Anglais',
-    'chinese': 'Chinois'
-  }
+  // const languages = {
+  //   'french': 'Français',
+  //   'english': 'Anglais',
+  //   'chinese': 'Chinois'
+  // }
 
   return (
     <BulmaNavbar
