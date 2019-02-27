@@ -12,5 +12,11 @@
 	"navbar.language.french": "French",
 	"navbar.language.language": "Language",
 	"navbar.second": "Second",
-	"navbar.third": "Third"
+  "navbar.third": "Third",
+	"main.content.button.title": "Button",
+  "main.button-column.container.title": "Click the button below to fetch the API",
+  "main.button-column.button.title": "Get lorem ipsum text",
+  "main.lorem-ipsum-article.message.loading": "Loading...",
+  "main.lorem-ipsum-article.message.error": "Error",
+  "main.lorem-ipsum-article.message.waiting": "Waiting for request..."
 }

@@ -1,5 +1,6 @@
-export const getNews = () => {
+export const getApi = (apiUrl) => {
   return {
-    type: 'GET_API'
+    type: 'GET_API',
+    apiUrl
   }
 }

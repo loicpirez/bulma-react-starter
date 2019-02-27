@@ -6,7 +6,7 @@ import Columns from 'react-bulma-components/lib/components/columns'
 import { FormattedDate, FormattedTime, FormattedMessage } from 'react-intl'
 import PropTypes from 'prop-types'
 import ButtonColumn from './Button-Column'
-
+import LoremIpsumArticle from './Lorem-Ipsum-Article'
 /* Heure Path  strong Chargement icon contenu redux sage
   hidden mobile dektop
 */
@@ -46,7 +46,11 @@ const Content = (props) => {
       />
     },
     button: {
-      title: 'Button',
+      title: <FormattedMessage
+        id='main.content.button.title'
+        description='Title of the button section'
+        key='button_title'
+      />,
       description: <ButtonColumn />
     }
   }
@@ -67,6 +71,7 @@ const Content = (props) => {
           </Columns.Column>
         ))}
       </Columns>
+      <LoremIpsumArticle/>
     </Container>
   )
 }

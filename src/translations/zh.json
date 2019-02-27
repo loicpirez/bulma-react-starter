@@ -12,5 +12,11 @@
 	"navbar.language.french": "法国",
 	"navbar.language.language": "语言",
 	"navbar.second": "第二",
-	"navbar.third": "第三"
+  "navbar.third": "第三",
+	"main.content.button.title": "按键",
+  "main.button-column.container.title": "单击下面的按钮以获取API。",
+  "main.button-column.button.title": "得到lorem ipsum文本",
+  "main.lorem-ipsum-article.message.loading": "载入中...",
+  "main.lorem-ipsum-article.message.error": "错误",
+  "main.lorem-ipsum-article.message.waiting": "等待请求..."
 }

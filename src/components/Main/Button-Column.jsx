@@ -1,46 +1,51 @@
 import React from 'react'
 import { Button } from 'react-bulma-components/full'
 import { connect } from 'react-redux'
-import { getNews } from '../../actions'
+import { getApi } from '../../actions'
 import PropTypes from 'prop-types'
-
-// API: https://baconipsum.com/api/?type=meat-and-filler
-// Language
-// Loading ...
-// Success : fetch success
-// Error: notification https://github.com/fkhadra/react-toastify#le-style
+import { Container } from './styles'
+import { FormattedMessage } from 'react-intl'
 
 const ButtonColumn = (props) => {
-  getNews()
+  const apiUrl = 'https://baconipsum.com/api/?type=meat-and-filler'
+
   return (
     <React.Fragment>
-      <br/>
-
+      <Container>
+        <FormattedMessage
+          id='main.button-column.container.title'
+          description='Button introduction'
+          key='container-title'
+        />
+      </Container>
       <Button
-        fullwidth={true}
+        fullwidth={false}
         color='link'
-        loading={false}
+        loading={props.loading}
         rounded={true}
-        onClick={props.getNews}
+        inverted={false}
+        outlined={true}
+        onClick={() => { props.getApi(apiUrl) }}
       >
-      Fetch lorem ipsum online
+        <FormattedMessage
+          id='main.button-column.button.title'
+          description='Button title'
+          key='button-title'
+        />
       </Button>
-      <hr/>
-      <article className='message is-info'>
-        <div className='message-body'>
-        Void
-        </div>
-      </article>
     </React.Fragment>
   )
 }
 
 const mapDispatchToProps = {
-  getNews: getNews
+  getApi: getApi
 }
+
+const mapStateToProps = ({ loading }) => ({ loading })
 
 ButtonColumn.propTypes = {
-  getNews: PropTypes.func
+  getApi: PropTypes.func,
+  loading: PropTypes.bool
 }
 
-export default connect(null, mapDispatchToProps)(ButtonColumn)
+export default connect(mapStateToProps, mapDispatchToProps)(ButtonColumn)
